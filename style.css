@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    padding: 15px 25px;
+    color: #757575;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 71%;
+}
+
+section {
+    box-shadow: 0 0 10px 5px #d4d3d3;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+aside {
+    box-shadow: 0 0 10px 5px #d4d3d3;
+    display: inline-block;
+    width: 28%;
+    padding-bottom: 15px;
+}
+
+.avatar-wrapper {
+    background-image: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/1509273_684444968265162_899540169_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=V13jIE4Mby0AX_pNSKB&_nc_ht=scontent-dfw5-2.xx&oh=8959c8262442e133a3c0425e96bff8dd&oe=606F244C");
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    padding: 85% 5% 10%;
+    max-height: 3em;
+    position: relative;
+}
+
+.avatar-wrapper h1 {
+    color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.contact-info {
+    padding: 5px 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.fa {
+    margin-right: 15px;
+    color: teal;
+    
+}
+
+.skills {
+    padding: 5px 10px;
+}
+
+.container {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: white;
+    text-align: center;
+}
+
+.bar {
+    background-color: teal;
+    border-radius: 10px;
+}
+
+#adobe {
+    width: 90%;
+}
+
+#photo {
+    width: 80%;
+}
+
+#illustrator {
+    width: 75%;
+}
+
+#media {
+    width: 50%;
+}
+
+.languages {
+    padding: 5px 10px;
+}
+
+.level {
+    border-radius: 12px;
+    padding: 12px;
+    background-color: teal;
+}
+
+.english {
+    width: 100%;
+}
+
+.russian {
+    width: 100%;
+}
+
+.french {
+    width: 40%;
+}
+
+.inner-section {
+    margin: 10px 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 6px;
+}
+
+.inner-section:last-child,
+p {
+    border-bottom: none;
+}
+
+.section-p {
+    color: teal;
+}
+
+.spanning {
+    border: 1px solid teal;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+}
+
+.footer {
+    background: teal;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside,
+    section,
+    .section-wrapper {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
