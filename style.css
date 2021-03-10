@@ -12,7 +12,7 @@ body {
 main {
     padding: 15px 25px;
     color: #757575;
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
 }
 
@@ -60,7 +60,7 @@ aside {
 .fa {
     margin-right: 15px;
     color: teal;
-    
+
 }
 
 .skills {
@@ -142,7 +142,11 @@ p {
     background-color: teal;
 }
 
-.footer {
+a {
+    color: white;
+}
+
+footer {
     background: teal;
     color: white;
     text-align: center;
@@ -151,7 +155,17 @@ p {
     padding: 20px;
 }
 
-@media screen and (max-width: 767px) {
+footer .fa {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .fa:hover {
+    opacity: 0.3;
+}
+
+
+@media only screen and (max-width: 600px) {
     main {
         display: flex;
         flex-direction: column;
